@@ -22,5 +22,6 @@ display: block;
 margin: auto;
 overflow: visible;
 padding-right: 95px;
+max-width: 120vw
 
 }
