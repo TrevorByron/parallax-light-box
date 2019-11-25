@@ -36,18 +36,19 @@ var layer_list = [
 		'blend': null,
 		'opacity': 1
 	},
+
 	{
-		'image': clouds,
-		'src': './images/layer_2_1.png',
-		'z_index': 0,
+		'image': floaties_1,
+		'src': './images/layer_3_1.png',
+		'z_index': -.75,
 		'position': {x: 0, y: 0},
 		'blend': null,
 		'opacity': 1
 	},
 	{
-		'image': floaties_1,
-		'src': './images/layer_3_1.png',
-		'z_index': -.75,
+		'image': clouds,
+		'src': './images/layer_2_1.png',
+		'z_index': 0,
 		'position': {x: 0, y: 0},
 		'blend': null,
 		'opacity': 1
@@ -60,18 +61,19 @@ var layer_list = [
 		'blend': null,
 		'opacity': 1
 	},
-	{
-		'image': shadows,
-		'src': './images/layer_5_1.png',
-		'z_index': 1,
-		'position': {x: 0, y: 0},
-		'blend': null,
-		'opacity': 0.75
-	},
+	// {
+	// 	'image': shadows,
+	// 	'src': './images/layer_5_1.png',
+	// 	'z_index': 1,
+	// 	'position': {x: 0, y: 0},
+	// 	'blend': null,
+	// 	'opacity': 0.75
+	// },
+
 	{
 		'image': mask,
 		'src': './images/layer_6_1.png',
-		'z_index': 3,
+		'z_index': 1.5,
 		'position': {x: 0, y: 0},
 		'blend': null,
 		'opacity': 1
